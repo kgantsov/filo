@@ -59,7 +59,7 @@ curl 'http://localhost:8000/files'
 4. List Files from a specific host (GET /files?directory_path=...
 
 ```bash
-curl 'http://localhost:8000/files?directory_path=agent-001'
+curl 'http://localhost:8000/files?directory_path=%2Fvar%2Flog%2F'
 ```
 
 5. Get File by ID (GET /files/{id})
